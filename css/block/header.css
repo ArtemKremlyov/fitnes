@@ -1,0 +1,100 @@
+.header{
+    height: 100px;
+    background-color: white;
+}
+.header__top{
+    height: 31px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #c2d1d9 solid;
+}
+.header__contacts{
+    display: flex;
+}
+.header__socials-list{
+    display: flex;
+}
+.header__contacts-mail{
+    color: #424b5a;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-right: 48px;
+    display: flex;
+}
+.header__contacts-mail:before{
+    margin-right: 8px;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url('../../img/icons/mail-icon.png');
+    background-repeat: no-repeat;
+
+}
+.header__contacts-number{
+    color: #424b5a;
+    font-family: "Myriad Pro";
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+}
+.header__contacts-number:before{
+    margin-right: 8px;
+    content: '';
+    display: block;
+    width: 16px;
+    height: 12px;
+    background-image: url('../../img/icons/phone-icon.png');
+    background-repeat: no-repeat;
+}
+.header__social-item{
+    margin-right: 15px;
+}
+.header__social-item:last-child{
+    margin-right: 0px;
+}
+.header__social-link{
+    display: flex;
+    justify-content: center;
+    width: 18px;
+    height: 13px;
+}
+.header__socials-icon{
+    height: 100%;
+    width: 100%;
+}
+.header__bottom{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px #c2d1d9 solid;
+}
+.header__logo{
+    display: flex;
+    align-items: center;
+}
+.logo__letter{
+    font-size: 34px;
+    font-family: "Myriad Pro";
+    font-weight: 700;
+    color: white;
+    background-color:#424B5A;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+}
+.logo__name{
+    font-size: 30px;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-top: 4px;
+    color:#424b5a;
+}

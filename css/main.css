@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('normalize.css');
+@import url('base.css');
+
+@import url('block/header.css');
+@import url('block/nav.css');
+@import url('block/hero.css');
+@import url('block/advantages.css');
+@import url('block/explanation.css');
+@import url('block/team.css');
+@import url('block/send.css');
+@import url('block/plans.css');

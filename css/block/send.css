@@ -1,0 +1,75 @@
+.send{
+    height: 653px;
+    background-color: #f2f5f7;
+    padding-top: 174px;
+}
+.send__info-title{
+    font-family: Ubuntu;
+    font-size: 66px;
+    font-weight: 500;
+    color: #505d68;
+    margin-bottom: 65px;
+}
+.send__info-item{
+    color: #a1aeb7;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 36px;
+}
+.send__info-item::before{
+
+}
+
+.send__inner{
+    background-color: #424b5a;
+    padding-top: 55px;
+    padding-bottom: 44px;
+    padding-left: 33px;
+    padding-right: 33px;
+    height: 400px;
+}
+.send__inner-title{
+    font-family: Ubuntu;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 43px;
+    color: #ffffff;
+}
+.send__form{
+    display: flex;
+    flex-direction: column;
+}
+.send__form-input{
+    width: 295px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    border:0;
+    margin-bottom: 16px;
+    padding-left: 5px;
+}
+.send__form-input::placeholder{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c2d1d9;
+    line-height: 1.29;
+}
+.send__form-submit{
+    width: 295px;
+    height: 40px;
+    background-color: #c2d1d9;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 500;
+    color: #424b5a;
+    text-transform: uppercase;
+}
+.send__form-select{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    color: #c2d1d9;
+    line-height: 1.29;
+}

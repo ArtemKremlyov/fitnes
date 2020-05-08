@@ -1,0 +1,35 @@
+*,*:before,*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h3,h4,h6{
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+body{
+    font-weight: 500;
+}
+.container{
+    width: 1120px;
+    margin: 0 auto;
+    height: 100%;
+}
+.container--hero{
+    display: flex;
+}
+.container--send{
+    display: flex;
+}

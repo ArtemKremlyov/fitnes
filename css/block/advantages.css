@@ -1,0 +1,44 @@
+.advantages{
+    padding-top: 130px;
+    padding-bottom: 240px;
+}
+.advantages__title{
+  font-family: Ubuntu;
+  font-size: 50px;
+  font-weight: bold;
+  color: #505d68;
+  text-align: center;
+  margin-bottom: 141px;
+}
+.advantages__list{
+    display: flex;
+    justify-content: center;
+}
+.advantages__item{
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 360px;
+    padding: 0 20px;
+    text-align: center;
+}
+.advantages__item-img{
+    margin-bottom: 37px;
+    width: 68px;
+    height: 56px;
+}
+.advantages__item-title{
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 23px;
+}
+.advantages__item-desc{
+    line-height: 1.5;
+    color: #a1aeb7;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 500;
+}

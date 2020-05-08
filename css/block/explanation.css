@@ -1,0 +1,25 @@
+.explanation__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.explanation__item-title{
+    font-family: Ubuntu;
+    font-size: 21px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 14px;
+}   
+.explanation__item-desc{
+    font-family: Myriad Pro;
+    font-size: 16px;
+    font-weight: normal;
+    color: #a1aeb7;
+    line-height: 1.5;
+}
+.explanation__item-text{
+    max-width: 453px;
+}
+.explanation__item--reverse{
+    flex-direction: row-reverse;
+}

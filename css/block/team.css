@@ -1,0 +1,62 @@
+.team{
+    padding-top: 85px;
+    text-align: center;
+}
+.team__title{
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 25px;
+}
+.team__desc{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #a1aeb7;
+    margin-bottom: 81px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 544px;
+}
+.team__list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team__item{
+    display: flex;
+    align-items: center;
+    padding-right: 63px;
+    border-right: 1px #c2d1d9 solid;
+    margin-bottom: 39px;
+    margin-right: 60px;
+}
+.team__item-inner{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px #c2d1d9 solid;
+    padding-bottom: 24px;
+}
+.team__item-data strong{
+    display: block;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 14px;
+}
+.team__item-data p{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a1aeb7;
+}
+.team__item:nth-child(3n+3){
+    border-right: 0;
+    margin-right: 0;
+}
+.team__item-img{
+    margin-right: 24px;
+}

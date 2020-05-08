@@ -1,0 +1,113 @@
+.plans{
+    padding-top: 81px;
+}
+.plans__title{
+    font-family: Ubuntu;
+    font-size: 50px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 16px;
+}
+.plans__desc{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    font-stretch: normal;
+    max-width: 545px;
+    line-height: 1.5;
+    color: #a1aeb7;
+    margin-bottom: 48px;
+}
+.plans__item{
+    display: flex;
+    justify-content: space-between;
+    height: 135px;
+    border: 1px #c2d1d9 solid;
+    border-radius: 2px;
+    padding-right: 58px;
+    margin-bottom: 16px;
+}
+.plans__item-kit{
+    width: 203px;
+    background-color: #f2f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 42px;
+}
+.plans__item-kit strong{
+    font-family: Ubuntu;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    color: #505d68;
+}
+.plans__item-kit span{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1aeb7;
+}
+.structure{
+    display: flex;
+}
+.structure__column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 217px;
+}
+.structure__item{
+    margin-bottom: 20px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1aeb7;
+    display: flex;
+    align-items: center;
+}
+.structure__item:nth-child(3n+3){
+    margin-bottom: 0;
+}
+.structure__item:after{
+    content: '';
+    width: 15px;
+    height: 12px;
+    background-image: url('../../img/icons/ok.png');
+}
+.plans__item-price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plans__item-dollar{
+    font-family: Ubuntu;
+    font-size: 38px;
+    font-weight: bold;
+    color: #505d68;
+    margin-bottom: 7px;
+}
+.plans__item-dollar span{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a1aeb7;
+}
+.plans__item-buy{
+    width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px #424b5a solid;
+
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: 400;
+    color: #424b5a;
+    text-transform: uppercase;
+}
+.plans__item-buy:hover{
+    background-color: #424b5a;
+    color: white;
+}
