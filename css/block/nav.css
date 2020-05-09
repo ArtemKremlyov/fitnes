@@ -17,18 +17,21 @@
 .nav__item:last-child{
     margin-right: 0;
 }
-.nav__list:after{
+.search{
+    width: 18px;
+    height: 18px;
+    display: flex;
+    position: relative;
+}
+.search:before{
     content: '';
-    margin-left: 29px;
+    position: absolute;
+    left: -20px;
+    top: -1px;
     display: block;
     height: 25px;
     width: 1px;
     background-color: #c2d1d9;
-}
-.search{
-    margin-left: 40px;
-    width: 18px;
-    height: 18px;
 }
 .search__button{
     cursor: pointer;

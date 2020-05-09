@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@font-face {
+    font-family: "Myriad Pro";
+
+    src: url("../fonts/8143.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/8143.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Myriad Pro";
+
+    src: url("../fonts/ofontruMyriadProBold.woff") format("woff"), /* Modern Browsers */
+    url("../fonts/ofontruMyriadProBold.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: bold;
+    font-style: normal;
+}

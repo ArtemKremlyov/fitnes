@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 @import url('normalize.css');
 @import url('base.css');
+@import url('fonts.css');
 
 @import url('block/header.css');
 @import url('block/nav.css');

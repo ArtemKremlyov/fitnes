@@ -16,9 +16,16 @@
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 36px;
+    display: flex;
+    align-items: center;
 }
 .send__info-item::before{
-
+    content: '';
+    display: block;
+    margin-right: 16px;
+    width: 24px;
+    height: 24px;
+    background: url('../../img/icons/icon.png') no-repeat;
 }
 
 .send__inner{
