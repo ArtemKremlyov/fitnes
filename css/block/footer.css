@@ -1,0 +1,18 @@
+.footer{
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border: solid 1px #c2d1d9;
+}
+.footer__logo{
+    font-size: 25px;
+    font-family: "Myriad Pro";
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.footer__copyright{
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: normal;
+    color: #505d68;
+}

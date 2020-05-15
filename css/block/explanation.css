@@ -1,25 +1,80 @@
+.explanation__title{
+    font-family: Myriad Pro;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: italic;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #040404;
+    margin-bottom: 97px;
+}
 .explanation__item{
     display: flex;
     align-items: center;
     margin-bottom: 80px;
 }
 .explanation__item-title{
-    font-family: Ubuntu;
-    font-size: 21px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
     font-weight: bold;
-    color: #505d68;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.28;
+    letter-spacing: normal;
+    text-align: center;
+    color: #050505;
     margin-bottom: 14px;
+    white-space: nowrap;
 }   
+.explanation__item-title::first-letter{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 127.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.28;
+  letter-spacing: normal;
+  color: #56c329;
+  text-shadow: -3px 3px 2px #040404;
+}
 .explanation__item-desc{
-    font-family: Myriad Pro;
-    font-size: 16px;
-    font-weight: normal;
-    color: #a1aeb7;
-    line-height: 1.5;
+    font-family: 'PT Sans', sans-serif;
+    margin-left: 47px;
+    max-width: 324px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #050505;
+    font-style: italic;
+    line-height: 1.57;
+    letter-spacing: 0.14px;
 }
 .explanation__item-text{
     max-width: 453px;
+    position: absolute;
+    right: 253px;
+}
+.explanation__item--reverse .explanation__item-text{
+    left: 220px;
+}
+.explanation__item-img{
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
 }
 .explanation__item--reverse{
     flex-direction: row-reverse;
+}
+
+.explanation__item-wrap{
+    width: 522px;
+    height: 346px;
+    border-radius: 30px;
+    border: solid 1px #c6c6c6;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

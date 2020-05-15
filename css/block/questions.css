@@ -1,0 +1,46 @@
+.questions{
+    padding-top: 132px;
+    margin-bottom: 250px;
+}
+.questions__title{
+  font-family: Ubuntu;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 56px;
+  color: #505d68;
+}
+.questions__block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 58px;
+    
+}
+.questions__button{
+    width: 244px;
+    height: 59px;
+    border: 1px #424b5a solid;
+    border-radius: 4px;
+    font-family: Ubuntu;
+    font-size: 17.5px;
+    font-weight: normal;
+    color: #424b5a;
+    margin-right: 114px;
+}
+.questions__button:last-child{
+    margin-right: 0;
+}
+.questions__link{
+    display: block;
+    width: 165px;
+    height: 40px;
+    background-color: #424b5a;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0 auto;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 13px;
+}
