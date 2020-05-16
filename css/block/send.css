@@ -2,6 +2,7 @@
     height: 653px;
     background-color: #f2f5f7;
     background-image: url('../../img/back1.png');
+    background-size: cover;
     padding-top: 174px;
 }
 .send__info-title{

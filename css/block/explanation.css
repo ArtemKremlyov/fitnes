@@ -52,7 +52,7 @@
     letter-spacing: 0.14px;
 }
 .explanation__item-text{
-    max-width: 453px;
+    width: 453px;
     position: absolute;
     right: 253px;
 }
