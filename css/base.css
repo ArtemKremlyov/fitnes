@@ -32,4 +32,17 @@ body{
 }
 .container--send{
     display: flex;
+    background-image: url('../img/back1.png');
+    padding-top: 174px;
+    width: 1160px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.owl-stage{
+    display: flex;
+    overflow: hidden;
+}
+.owl-stage-outer{
+    overflow: hidden;
 }

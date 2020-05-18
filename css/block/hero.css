@@ -1,12 +1,19 @@
 .hero{
-    height: 653px;
-    background-color: #f2f5f7;
+    /*height: 653px;*/
+    background-color: #ffffff;
+    margin-top: 101px;
 }
 .hero__column{
     width: 50%;
     height: 100%;
 }
-
+.hero__list{
+    display: flex;
+    width: 100%;
+}
+.hero__item{
+    width: 100%;
+}
 
 .hero__welcome{
     display: flex;
