@@ -4,12 +4,11 @@
 }
 .advantages__title{
   font-family: Myriad Pro;
-  font-size: 48px;
+  font-size: 44px;
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  margin-bottom: 121px;
-  max-width: 855px;
+  margin-bottom: 90px;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.33;
@@ -25,14 +24,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-end;
     max-width: 360px;
     padding: 0 20px;
     text-align: center;
 }
 .advantages__item-img{
-    margin-bottom: 16px;
-    width: 124px;
-    height: 99px;
+    margin-bottom: 11px;
+    width: 215px;
+   /* height: 99px;*/
 }
 .advantages__item-title{
     font-family: Ubuntu;

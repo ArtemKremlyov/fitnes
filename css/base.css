@@ -26,9 +26,11 @@ body{
     width: 1160px;
     margin: 0 auto;
     height: 100%;
+    position: relative;
 }
 .container--hero{
     display: flex;
+    position: relative;
 }
 .container--send{
     display: flex;
@@ -37,6 +39,7 @@ body{
     width: 1160px;
     padding-left: 20px;
     padding-right: 20px;
+    position: relative;
 }
 
 .owl-stage{

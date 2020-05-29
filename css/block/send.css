@@ -1,6 +1,7 @@
 .send{
     height: 653px;
     background-color: #ffffff;
+    position: relative;
 }
 .send__info-title{
     font-family: Ubuntu;
@@ -8,6 +9,7 @@
     font-weight: 500;
     color: #505d68;
     margin-bottom: 65px;
+    max-width: 560px;
 }
 .send__info-item{
     color: #a1aeb7;
@@ -28,12 +30,18 @@
 }
 
 .send__inner{
-    background-color: #424b5a;
-    padding-top: 55px;
-    padding-bottom: 44px;
-    padding-left: 33px;
-    padding-right: 33px;
-    height: 400px;
+    height: 632px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 78px;
+    padding-right: 46px;
+    position: absolute;
+    right: 81px;
+    top: 95px;
+    opacity: 0.95;
+    border: solid 2px #ff0000;
+    background-color: #da384f;
 }
 .send__inner-title{
     font-family: Ubuntu;
