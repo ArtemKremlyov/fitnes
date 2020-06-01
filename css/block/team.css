@@ -31,16 +31,20 @@
     display: flex;
     align-items: center;
     padding-right: 22px;
-    border-right: 1px #c2d1d9 solid;
+    border-right: 2px #f2819f solid;
     margin-bottom: 39px;
-    margin-right: 60px;
+    margin-right: 22px;
     width: 345px;
+}
+.team__item a{
+    width: 100%;
 }
 .team__item-inner{
     display: flex;
     align-items: center;
-    border-bottom: 1px #c2d1d9 solid;
+    border-bottom: 2px #f2819f solid;
     padding-bottom: 24px;
+    width: 100%;
 }
 .team__item-data strong{
     display: block;
