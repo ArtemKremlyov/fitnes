@@ -237,14 +237,11 @@
                 <div class="send__inner">
                     <h5 class="send__inner-title">Зарегистрируйтесь и получите доступ к личному профилю!</h5>
                     <form class="send__form">
-                        <input type="email" class='send__form-input' placeholder='Email'>
-                        <select class='send__form-input send__form-select'>
-                            <option value="1">Select product</option>
-                        </select>
-                        <select class='send__form-input send__form-select'>
-                            <option value="1">Type of license</option>
-                        </select>
-                        <button type='submit' class='send__form-submit'>Start Now!</button>
+                        <input type="text" class='send__form-input' name='name' placeholder='Введите ваше имя и фамилию' required>
+                        <input type="email" class='send__form-input' name='email' placeholder='Введите ваш email' required>
+                        <input type="password" class='send__form-input' name='pas1' placeholder='Введите ваш пароль' required>
+                        <input type="password" class='send__form-input' name='pas2' placeholder='Повторите пароль' required>
+                        <button type='submit' class='send__form-submit'>Зарегистрироваться</button>
                         <div class="send__reg">Уже зарегистрированы? <a href="http://dinm2.esy.es/ab20/login.php">В профиль</a></div>
                     </form>
                 </div>
@@ -380,7 +377,8 @@
     </div>
 </body>
 <script>
-    $(document).ready(function(){
+$(document).ready(function(){
+
 	$(".hero__header-item a").on("click", function (e) {
 	    e.preventDefault();
 	    var id  = $(this).attr('href'),
@@ -389,7 +387,15 @@
         if(top > 0 ){
 	        $('body,html').animate({scrollTop: top}, 1500);
         }
-	});
+    });
+
+
+    $('.send__form').on('submit',function(e){
+        e.preventDefault();
+
+        let formData = $(this).serializeArray();
+        console.log(formData) 
+    })
 })
 </script>
 </html>
