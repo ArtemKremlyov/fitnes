@@ -104,9 +104,8 @@
 
     padding-top: 18px;
     width: 419px;
-    opacity: 0.95;
     border: solid 2px #ff0000;
-    background-color: #da384f;
+    background-color: rgba(218, 56, 79,0.8);
     padding-bottom: 139px;
 }
 .hero__banner:before{
