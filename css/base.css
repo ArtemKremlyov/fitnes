@@ -34,7 +34,7 @@ body{
 }
 .container--send{
     display: flex;
-    background-image: url('../img/back1.png');
+    background-image: url('../img/reg.png');
     padding-top: 174px;
     width: 1160px;
     padding-left: 20px;
