@@ -23,33 +23,34 @@
     display: flex;
     justify-content: space-between;
     height: 135px;
-    border: 1px #c2d1d9 solid;
+    border: solid 2px #ff0000;
+
     border-radius: 2px;
     padding-right: 58px;
     margin-bottom: 16px;
 }
 .plans__item-kit{
     width: 203px;
-    background-color: #f2f5f7;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-right: 42px;
+    background-color: rgba(218, 56, 79,0.8);
 }
 .plans__item-kit strong{
     font-family: 'Comic Sans MS', arial;
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 17px;
-    color: #505d68;
+    color: #ffffff
 }
 .plans__item-kit span{
     font-family: 'Comic Sans MS', arial;
     font-style: italic;
     font-size: 14px;
     font-weight: 400;
-    color: #a1aeb7;
+    color: #ffffff;
 }
 .structure{
     display: flex;
@@ -96,7 +97,7 @@
     font-family: 'Comic Sans MS', arial;
     font-size: 38px;
     font-weight: bold;
-    color: #505d68;
+    color: #1b2127;
     margin-bottom: 7px;
 }
 .plans__item-dollar span{
@@ -104,7 +105,7 @@
     font-style: italic;
     font-size: 14px;
     font-weight: 400;
-    color: #a1aeb7;
+    color: #1b2127;
 }
 .plans__item-buy{
     width: 165px;
@@ -115,8 +116,15 @@
     font-family: Ubuntu;
     font-size: 12px;
     font-weight: 400;
-    color: #424b5a;
+    color: #ffffff;
     text-transform: uppercase;
+
+
+    border: solid 2px #ff0000;
+    background-color: #f2819f;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
 }
 .plans__item-buy:hover{
     background-color: #424b5a;
