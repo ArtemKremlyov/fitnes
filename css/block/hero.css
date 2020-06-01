@@ -139,6 +139,7 @@
 .hero__banner-desc{
     font-family: 'Comic Sans MS', arial;
     font-size: 21px;
+    font-style: italic;
     font-weight: normal;
     color: #ffffff;
     line-height: 1.43;
