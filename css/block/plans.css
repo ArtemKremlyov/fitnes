@@ -2,14 +2,15 @@
     padding-top: 131px;
 }
 .plans__title{
-    font-family: Ubuntu;
-    font-size: 50px;
+    font-family: 'Comic Sans MS', arial;
+        font-size: 50px;
     font-weight: bold;
     color: #505d68;
     margin-bottom: 16px;
 }
 .plans__desc{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
+    font-style: italic;
     font-size: 14px;
     font-weight: 400;
     font-stretch: normal;
@@ -37,14 +38,15 @@
     margin-right: 42px;
 }
 .plans__item-kit strong{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
     font-size: 38px;
     font-weight: bold;
     margin-bottom: 17px;
     color: #505d68;
 }
 .plans__item-kit span{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
+    font-style: italic;
     font-size: 14px;
     font-weight: 400;
     color: #a1aeb7;
@@ -60,7 +62,7 @@
 }
 .structure__item{
     margin-bottom: 20px;
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
     font-size: 14px;
     font-weight: 400;
     color: #a1aeb7;
@@ -91,14 +93,15 @@
     align-items: center;
 }
 .plans__item-dollar{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
     font-size: 38px;
     font-weight: bold;
     color: #505d68;
     margin-bottom: 7px;
 }
 .plans__item-dollar span{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
+    font-style: italic;
     font-size: 14px;
     font-weight: 400;
     color: #a1aeb7;

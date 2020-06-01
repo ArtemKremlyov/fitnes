@@ -1,5 +1,5 @@
 .explanation__title{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
     font-size: 50px;
     font-weight: bold;
     font-stretch: normal;
@@ -15,7 +15,7 @@
     margin-bottom: 80px;
 }
 .explanation__item-title{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
     font-size: 21px;
     font-weight: bold;
     font-stretch: normal;
@@ -30,7 +30,8 @@
 }   
 
 .explanation__item-desc{
-    font-family: "Myriad Pro";
+    font-family: 'Comic Sans MS', arial;
+    font-style: italic;
     font-size: 16px;
     margin-left: 47px;
     max-width: 418px;

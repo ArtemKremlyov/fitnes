@@ -4,14 +4,14 @@
     text-align: center;
 }
 .team__title{
-    font-family: Ubuntu;
-    font-size: 50px;
+    font-family: 'Comic Sans MS', arial;
+        font-size: 50px;
     font-weight: bold;
     color: #505d68;
     margin-bottom: 25px;
 }
 .team__desc{
-    font-family: Myriad Pro;
+    font-family: 'Comic Sans MS', arial;
     font-size: 21px;
     font-weight: 500;
     font-style: italic;
@@ -48,14 +48,15 @@
 }
 .team__item-data strong{
     display: block;
-    font-family: Ubuntu;
-    font-size: 16px;
+    font-family: 'Comic Sans MS', arial;
+        font-size: 16px;
     font-weight: bold;
     color: #505d68;
     margin-bottom: 14px;
 }
 .team__item-data p{
-    font-family: Ubuntu;
+    font-family: 'Comic Sans MS', arial;
+    font-style: italic;
     font-size: 14px;
     font-weight: 500;
     color: #a1aeb7;
