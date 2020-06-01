@@ -30,10 +30,11 @@
 .team__item{
     display: flex;
     align-items: center;
-    padding-right: 63px;
+    padding-right: 22px;
     border-right: 1px #c2d1d9 solid;
     margin-bottom: 39px;
     margin-right: 60px;
+    width: 345px;
 }
 .team__item-inner{
     display: flex;
@@ -61,4 +62,6 @@
 }
 .team__item-img{
     margin-right: 24px;
+    width: 120px;
+    border-radius: 50%;
 }
