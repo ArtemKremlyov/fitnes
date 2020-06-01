@@ -137,10 +137,9 @@
     margin-bottom: 19px;
 }
 .hero__banner-desc{
-    font-family: "Myriad Pro";
+    font-family: 'Comic Sans MS', arial;
     font-size: 21px;
     font-weight: normal;
-    font-style:italic;
     color: #ffffff;
     line-height: 1.43;
     margin-left: 30px;
@@ -162,7 +161,7 @@
     margin-left: 25px;
 }
 .hero__banner-item{
-    font-family: Myriad Pro;
+    font-family: Roboto;
     font-size: 16px;
     font-weight: normal;
     color: #ffffff;
