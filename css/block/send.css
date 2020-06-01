@@ -79,6 +79,7 @@
     font-weight: 500;
     color: #424b5a;
     text-transform: uppercase;
+    margin-bottom: 15px;
 }
 .send__form-select{
     font-family: Ubuntu;
@@ -86,4 +87,14 @@
     font-weight: 500;
     color: #c2d1d9;
     line-height: 1.29;
+}
+.send__reg{
+    font-family: 'Comic Sans MS', arial;
+    font-weight: normal;
+    font-size: 13px;
+    color:white;
+}
+.send__reg a{
+    font-weight:bold;
+    
 }

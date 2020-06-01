@@ -245,6 +245,7 @@
                             <option value="1">Type of license</option>
                         </select>
                         <button type='submit' class='send__form-submit'>Start Now!</button>
+                        <div class="send__reg">Уже зарегистрированы? <a href="http://dinm2.esy.es/ab20/login.php">Перейти в профиль</a></div>
                     </form>
                 </div>
             </div>
@@ -381,7 +382,6 @@
 <script>
     $(document).ready(function(){
 	$(".hero__header-item a").on("click", function (e) {
-		console.log('click')
 	    e.preventDefault();
 	    var id  = $(this).attr('href'),
 	        top = $(id).offset().top - 100;
