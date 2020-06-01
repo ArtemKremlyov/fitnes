@@ -49,6 +49,8 @@
     font-weight: bold;
     margin-bottom: 43px;
     color: #ffffff;
+    max-width: 300px;
+    text-align: center;
 }
 .send__form{
     display: flex;
@@ -91,10 +93,10 @@
 .send__reg{
     font-family: 'Comic Sans MS', arial;
     font-weight: normal;
-    font-size: 13px;
+    font-size: 16px;
     color:white;
 }
 .send__reg a{
     font-weight:bold;
-    
+
 }
