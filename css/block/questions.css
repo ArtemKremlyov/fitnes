@@ -19,13 +19,13 @@
 .questions__button{
     width: 244px;
     height: 59px;
-    border: 1px #424b5a solid;
-    border-radius: 4px;
-    font-family: Ubuntu;
-    font-size: 17.5px;
-    font-weight: normal;
-    color: #424b5a;
+    color: #ffffff;
     margin-right: 114px;
+    border: solid 2px #ff0000;
+    background-color: #f2819f;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 900;
 }
 .questions__button:last-child{
     margin-right: 0;
