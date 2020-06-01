@@ -71,6 +71,7 @@
     font-weight: 500;
     color: #c2d1d9;
     line-height: 1.29;
+    text-align: center;
 }
 .send__form-submit{
     width: 295px;
