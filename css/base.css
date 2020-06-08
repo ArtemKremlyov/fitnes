@@ -41,7 +41,6 @@ body{
     padding-right: 20px;
     position: relative;
 }
-
 .owl-stage{
     display: flex;
     overflow: hidden;
