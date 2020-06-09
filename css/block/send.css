@@ -64,6 +64,7 @@
     border:0;
     margin-bottom: 16px;
     padding-left: 5px;
+    padding-top: 11px;
 }
 .send__form-input::placeholder{
     font-family: Ubuntu;

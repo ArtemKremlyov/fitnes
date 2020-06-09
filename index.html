@@ -26,17 +26,7 @@
                         <ul class="header__socials-list">
                             <li class="header__social-item">
                                 <a href="#" class="header__social-link">
-                                    <img src="img/icons/twitter-icon.png" alt="ссылка на твиттер" class="header__social-icon">
-                                </a>
-                            </li>
-                            <li class="header__social-item">
-                                <a href="#" class="header__social-link">
-                                    <img src="img/icons/facebook-icon.png" alt="ссылка на фейсбук" class="header__social-icon">
-                                </a>
-                            </li>
-                            <li class="header__social-item">
-                                <a href="#" class="header__social-link">
-                                    <img src="img/icons/instagram-icon.png" alt="ссылка на инстраграм" class="header__social-icon">
+                                    <img src="img/icons/insta.png" alt="ссылка на инстраграм" class="header__social-icon">
                                 </a>
                             </li>
                         </ul>
@@ -169,30 +159,34 @@
                     </li>
                     <li class="team__item">
                         <div class="team__item-inner">
-                            <img src="img/icons/ava.png" alt="" class="team__item-img">
+                            <img src="img/constructor.jpeg" alt="" class="team__item-img">
                             <div class="team__item-data">
-                                <strong>Myrtle Mendez</strong>
-                                <p>UI Designer  </p>
+                                <strong>Шипунова Марина</strong>
+                                <p>Конструктор головных уборов для детей и взрослых</p>
                             </div>
                         </div>
                     </li>
                     <li class="team__item">
-                        <div class="team__item-inner">
-                            <img src="img/icons/ava.png" alt="" class="team__item-img">
-                            <div class="team__item-data">
-                                <strong>Myrtle Mendez</strong>
-                                <p>UI Designer  </p>
+                        <a href="https://www.instagram.com/shipunovamarina/?r=nametag" target="_blank">
+                            <div class="team__item-inner">
+                                <img src="img/icons/ava.png" alt="" class="team__item-img">
+                                <div class="team__item-data">
+                                    <strong>Myrtle Mendez</strong>
+                                    <p>UI Designer  </p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li class="team__item">
-                        <div class="team__item-inner">
-                            <img src="https://scontent-arn2-2.cdninstagram.com/v/t51.2885-15/e35/s1080x1080/79955867_175732496834681_757442554155566724_n.jpg?_nc_ht=scontent-arn2-2.cdninstagram.com&_nc_cat=105&_nc_ohc=XpFDInaN4cYAX-zDtEf&oh=f31bf9d3d71bc2bb7b6c15d082c1d252&oe=5F086A1E" alt="" class="team__item-img">
-                            <div class="team__item-data">
-                                <strong>Ксения Филипкова</strong>
-                                <p>Нумеролог</p>
+                        <a href="https://www.instagram.com/numerolog_kseniya_filipkova/" target="_blank">
+                            <div class="team__item-inner">
+                                <img src="img/numerolog.jpg" alt="" class="team__item-img">
+                                <div class="team__item-data">
+                                    <strong>Ксения Филипкова</strong>
+                                    <p>Нумеролог</p>
+                                </div>
                             </div>
-                        </div>
+                        </a>
                     </li>
                     <li class="team__item">
                         <a href="https://www.instagram.com/mironzhilinskii/" target="_blank">
@@ -234,10 +228,14 @@
                 <div class="send__inner">
                     <h5 class="send__inner-title">Зарегистрируйтесь и получите доступ к личному профилю!</h5>
                     <form class="send__form">
-                        <input type="text" class='send__form-input' name='name' placeholder='Введите ваше имя и фамилию' required>
-                        <input type="email" class='send__form-input' name='email' placeholder='Введите ваш email' required>
-                        <input type="password" class='send__form-input' name='pas1' placeholder='Введите ваш пароль' required>
-                        <input type="password" class='send__form-input' name='pas2' placeholder='Повторите пароль' required>
+                        <div class="send__form-row" style="display:flex">
+                            <input type="text" class='send__form-input' name='name' placeholder='Ваше имя' style="width:145px;margin-right:5px">
+                            <input type="text" class='send__form-input' name='lastname' placeholder='Ваша фамилия' style="width:145px;">
+                        </div>
+                        <input type="email" class='send__form-input' name='email' placeholder='Введите ваш email' >
+                        <input type="password" class='send__form-input' name='pas1' placeholder='Введите ваш пароль'>
+                        <input type="password" class='send__form-input' name='pas2' placeholder='Повторите пароль'>
+                        <div class="err"></div>
                         <button type='submit' class='send__form-submit'>Зарегистрироваться</button>
                         <div class="send__reg">Уже зарегистрированы? <a href="http://dinm2.esy.es/ab20/login.php">В профиль</a></div>
                     </form>
@@ -252,82 +250,121 @@
                 <ul class="plans__list">
                     <li class="plans__item">
                         <div class="plans__item-kit">
-                            <strong>Basic</strong>
+                            <strong>Пробная тренировка</strong>
                             <span>For solopreneurs</span>
                         </div>
                         <div class="structure">
                             <div class="structure__column">
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
+                                <div class="structure__item">Группа</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
+                                <div class="structure__item structure__item--count">До 10 чел.</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
+                                <div class="structure__item structure__item--time">1 час</div>
                             </div>
                         </div>
                         <div class="plans__item-price">
-                            <div class="plans__item-dollar">10₽<span>/mo</span></div>
+                            <div class="plans__item-dollar">300₽<span></span></div>
                             <button class='plans__item-buy'>Sign Up</button>
                         </div>
                     </li>
                     <li class="plans__item">
                         <div class="plans__item-kit">
-                            <strong>Starter</strong>
+                            <strong>Разовые занятия</strong>
                             <span>For startups</span>
                         </div>
                         <div class="structure">
                             <div class="structure__column">
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
+                                <div class="structure__item">Группа</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
+                                <div class="structure__item structure__item--count">До 10 человек</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
+                                <div class="structure__item structure__item--time">1 час</div>
                             </div>
                         </div>
                         <div class="plans__item-price">
-                            <div class="plans__item-dollar">25₽<span>/mo</span></div>
+                            <div class="plans__item-dollar">400₽<span></span></div>
                             <button class='plans__item-buy'>Sign Up</button>
                         </div>
                     </li>
                     <li class="plans__item">
                         <div class="plans__item-kit">
-                            <strong>Advanced</strong>
+                            <strong>Абонемент 4 занятия</strong>
                             <span>Advanced</span>
                         </div>
                         <div class="structure">
                             <div class="structure__column">
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
-                                <div class="structure__item">Unlimited</div>
+                                <div class="structure__item">Группа</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
-                                <div class="structure__item">Books per month</div>
+                                <div class="structure__item structure__item--count">До 10 человек</div>
                             </div>
                             <div class="structure__column">
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
-                                <div class="structure__item">10 users</div>
+                                <div class="structure__item structure__item--time">1 час</div>
                             </div>
                         </div>
                         <div class="plans__item-price">
-                            <div class="plans__item-dollar">30₽<span>/mo</span></div>
+                            <div class="plans__item-dollar">1500₽<span></span></div>
+                            <button class='plans__item-buy'>Sign Up</button>
+                        </div>
+                    </li>
+                    <li class="plans__item">
+                        <div class="plans__item-kit">
+                            <strong>Абонемент 8 занятия</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="structure">
+                            <div class="structure__column">
+                                <div class="structure__item">Группа</div>
+                            </div>
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--count">До 10 человек</div>
+                            </div>
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--time">1 час</div>
+                            </div>
+                        </div>
+                        <div class="plans__item-price">
+                            <div class="plans__item-dollar">2500₽<span></span></div>
+                            <button class='plans__item-buy'>Sign Up</button>
+                        </div>
+                    </li>
+                    <li class="plans__item">
+                        <div class="plans__item-kit">
+                            <strong>Индивидуальные занятия</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="structure">
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--count">1 человек</div>
+                            </div>
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--time">1 час</div>
+                            </div>
+                        </div>
+                        <div class="plans__item-price">
+                            <div class="plans__item-dollar">1000₽<span></span></div>
+                            <button class='plans__item-buy'>Sign Up</button>
+                        </div>
+                    </li>
+                    <li class="plans__item">
+                        <div class="plans__item-kit">
+                            <strong>Мини-группа</strong>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="structure">
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--count">2 человека</div>
+                            </div>
+                            <div class="structure__column">
+                                <div class="structure__item structure__item--time">1 час</div>
+                            </div>
+                        </div>
+                        <div class="plans__item-price">
+                            <div class="plans__item-dollar">1500₽<span></span></div>
                             <button class='plans__item-buy'>Sign Up</button>
                         </div>
                     </li>
@@ -353,17 +390,7 @@
                     <ul class="header__socials-list">
                         <li class="header__social-item">
                             <a href="#" class="header__social-link">
-                                <img src="img/icons/twitter-icon.png" alt="ссылка на твиттер" class="header__social-icon">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a href="#" class="header__social-link">
-                                <img src="img/icons/facebook-icon.png" alt="ссылка на фейсбук" class="header__social-icon">
-                            </a>
-                        </li>
-                        <li class="header__social-item">
-                            <a href="#" class="header__social-link">
-                                <img src="img/icons/instagram-icon.png" alt="ссылка на инстраграм" class="header__social-icon">
+                                <img src="img/icons/insta.png" alt="ссылка на инстраграм" class="header__social-icon">
                             </a>
                         </li>
                     </ul>
@@ -391,8 +418,19 @@ $(document).ready(function(){
         e.preventDefault();
 
         let formData = $(this).serializeArray();
-        console.log(formData) 
+        console.log(formData)
+
+
+            $.ajax({
+                url: 'reg.php',
+                type: 'POST',
+                data: formData,
+                success: function(res){
+                 res ? $('.err').html(res) : ('.err').empty();
+            }, 
+        })
     })
 })
 </script>
+<script crossorigin="anonymous" async type="text/javascript" src="//api.pozvonim.com/widget/callback/v3/13313d0c3f13e99d9a77f07bdb3f3562/connect" id="check-code-pozvonim" charset="UTF-8"></script>
 </html>
