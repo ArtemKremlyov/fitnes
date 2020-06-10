@@ -31,10 +31,19 @@
     display: flex;
     align-items: center;
     padding-right: 22px;
-    border-right: 2px #f2819f solid;
     margin-bottom: 39px;
     margin-right: 22px;
     width: 345px;
+    position: relative;
+}
+.team__item::after{
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 2px;
+    background-color: #f2819f;
+    right: 0;
+    top: -20px;
 }
 .team__item a{
     width: 100%;
@@ -63,6 +72,9 @@
 .team__item:nth-child(3n+3){
     border-right: 0;
     margin-right: 0;
+}
+.team__item:nth-child(3n+3)::after{
+    width: 0;
 }
 .team__item-img{
     margin-right: 24px;
