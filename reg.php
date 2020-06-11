@@ -39,7 +39,9 @@ if(empty($err)){
     VALUES(1,'$email','$hash_p','$name','$lastname','$email','0','0','',0,0,'Новичек',0,0)");
 
     $token = md5($email.time());
-    require_once "mail/sendmail2.php";
+    require "mail/sendmail2.php";
+
+    require "mail/sendmail3.php";
 }
 
 echo $err;

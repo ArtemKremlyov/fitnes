@@ -28,12 +28,7 @@
                                 <a href="#" class="header__social-link" style="height: 18px;">
                                     <img src="img/icons/insta.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;">
                                 </a>
-                            </li>
-                            <li class="header__social-item">
-                                <a href="#" class="header__social-link" style="height: 18px;">
-                                    <img src="img/icons/vk.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;"> 
-                                </a>
-                            </li>   
+                            </li> 
                             <li class="header__social-item">
                                 <a href="#" class="header__social-link" style="height: 18px;">
                                     <img src="img/icons/yt.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;">
@@ -387,7 +382,7 @@
             <div class="container">
                 <h1 class="questions__title">Хотите записаться на пробное занятие?</h1>
                 <div class="questions__block">
-                    <button class="questions__button">Да</button>
+                    <button class="questions__button" id = "yes">Да</button>
                     <button class="questions__button">Нет</button>
                 </div>
                 <a href="#" class="questions__link">Узнать подробнее</a>
@@ -404,12 +399,7 @@
                                 <a href="#" class="header__social-link" style="height: 18px;">
                                     <img src="img/icons/insta.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;">
                                 </a>
-                            </li>
-                            <li class="header__social-item">
-                                <a href="#" class="header__social-link" style="height: 18px;">
-                                    <img src="img/icons/vk.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;"> 
-                                </a>
-                            </li>   
+                            </li> 
                             <li class="header__social-item">
                                 <a href="#" class="header__social-link" style="height: 18px;">
                                     <img src="img/icons/yt.png" alt="ссылка на инстраграм" class="header__social-icon" style="width: 100%;">
@@ -421,6 +411,19 @@
                 <div class="footer__copyright">©2018 - Form  |   All right reserved</div>
             </div>
         </footer>
+        <div class="modal hidden">
+            <div class="modal__wrapper">
+                <h5 class="modal__title">Хотите связаться?</h5>
+                <div class="modal__ava">
+                    <img src="" alt="" class="modal__ava-img">
+                </div>
+                <form class="modal__form">
+                    <input type="text" class="modal__form-input" placeholder="Ваше имя">
+                    <input type="text" class="modal__form-input" placeholder="Ваш номер телефона">
+                    <button class="modal__form-button">Позвоните мне!</button>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
 <script>
@@ -452,6 +455,21 @@ $(document).ready(function(){
                  res ? $('.err').html(res) : ('.err').empty();
             }, 
         })
+    })
+
+
+    function toggleModal(type = 'default'){
+        $('.modal').toggleClass('hidden');
+    }
+
+    $('.hero__banner-call, #yes').on('click',function(e){
+        e.preventDefault();
+        toggleModal()
+    })
+    $('.modal').on('click',function(e){
+        if(e.target === this){
+            toggleModal();
+        }
     })
 })
 </script>

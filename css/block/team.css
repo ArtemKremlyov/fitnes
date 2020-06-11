@@ -47,12 +47,12 @@
 }
 .team__item:nth-child(-n+3)::before{
     content: "";
-    width: 100%;
+    width: 94%;
     height: 2px;
     background-color: #f2819f;
     position: absolute;
     top: -28px;
-    left: -11px;
+    left: 0px;
 }
 .team__item a{
     width: 100%;
@@ -67,7 +67,7 @@
 .team__item-data strong{
     display: block;
     font-family: 'Comic Sans MS', arial;
-        font-size: 16px;
+    font-size: 16px;
     font-weight: bold;
     color: #505d68;
     margin-bottom: 14px;

@@ -2,19 +2,19 @@
 
 // Основные настройки:
 $recipients = [$email]; // Получатели писем
-$subject = $_SERVER['SERVER_NAME'] . ' — Подтвердите вашу почту!'; // Тема письма
+$subject = $_SERVER['SERVER_NAME'] . ' — Запрос на регистрацию отправлен!'; // Тема письма
 
 $before_table = '<h2 style="color:#222">'. $subject .'</h2><p style="color:#222">Данные отправителя: '.$token.'</p>'; // HTML-содержимое до таблицы
 $after_table = '<i style="color:#bbb;font-size:12px">Сообщение отправлено с сайта <b>'.$_SERVER['SERVER_NAME'].'</b></i>'; // HTML-содержимое после таблицы
 $sep = ', '; // Разделитель между значениями (использ. при форм. HTML-содержимого письма)
 
 // Настройки SMTP:
-$smtp_host     = 'smtp.mail.ru'; // SMPT-адрес сервера
+$smtp_host     = 'smtp.hostinger.ru'; // SMPT-адрес сервера
 $smtp_port     = 465; // TCP-порт
 $smtp_secure   = 'ssl'; // SMTP TLS/SSL
 $smtp_auth     = true; // SMPT-аутентификация
-$smtp_username = 'artomik1@mail.ru'; // Почтовый ящик, с которого будут отправляться письма
-$smtp_password = 'qwertyBDRG1B2'; // Пароль почтового ящика, с которого будут отправляться письма
+$smtp_username = 'admin@hockeynation.su'; // Почтовый ящик, с которого будут отправляться письма
+$smtp_password = 'Rfhbvjdf94'; // Пароль почтового ящика, с которого будут отправляться письма
 
 // Перенаправления на страницы (если JS отключен):
 $success_page = './success.html'; // При успешной отправке
@@ -33,7 +33,7 @@ try {
 
 		// Формирование HTML-таблицы с введенными данными:
 		function createInputsTable($s) {
-			return '<div>Вы недавно регистрировались на сайте'.$_SERVER['SERVER_NAME'].'. Не переходите по ссылке,если вы этого не делали <a href="'.$_SERVER['SERVER_NAME'].'/register.php?token='.$s.'">'.$_SERVER['SERVER_NAME'].'/register.php?token='.$s.'</div>';
+			return '<h1>Добрый день,вы регистрировались у нас сайте,ваш запрос успешно передан администритору,пожалуйста дождитесь ответа на вашу почту</h1>';
 		}
 
 		$mail = new PHPMailer(true);
@@ -77,10 +77,26 @@ try {
 		if( $_POST['js'] === 'on' ) header('sendmail: 1');
 
 		// Успешно: Без AJAX (перенаправление)
-		else if( $success_page ) header('Location: ' . $success_page);
+		else if( $success_page ) ;
 
 		// Успешно: Без AJAX (по ум.)
 		else echo '<strong>Форма успешно отправлена!</strong>';
+
+
+
+		
+		function createInputsTable2($s) {
+            return 'Новая заявка';
+		}
+
+		$mail->setFrom($smtp_username);
+		$mail->isHTML(true);
+		$mail->Subject = $subject;
+		$mail->Body = createInputsTable2($token);
+		$mail->setLanguage('ru');
+		$mail->addAddress('artomik1@mail.ru');
+		$mail->send();
+
 
 	}
 
@@ -90,7 +106,7 @@ try {
 	if( $_POST['js'] === 'on' ) echo $mail->ErrorInfo;
 
 	// Ошибка: Без AJAX (перенаправление)
-	else if( $error_page ) header('Location: ' . $error_page);
+	else if( $error_page ) echo $e;
 
 	// Ошибка: Без AJAX (по ум.)
 	else echo '<strong>При отправке формы произошла ошибка!</strong><br><br>' . $mail->ErrorInfo;
