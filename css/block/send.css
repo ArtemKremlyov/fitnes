@@ -58,13 +58,11 @@
 }
 .send__form-input{
     width: 295px;
-    height: 40px;
     border-radius: 3px;
     background-color: #ffffff;
     border:0;
     margin-bottom: 16px;
-    padding-left: 5px;
-    padding-top: 11px;
+    padding: 10px 5px;
 }
 .send__form-input::placeholder{
     font-family: Ubuntu;
